@@ -62,8 +62,8 @@ text-align: center;
     align-self: center;
     align-items:center;
     }
-    .container--head {
-        margin-top: -17px;
+    .about__container--head {
+        transform: translate(0,-50%);
         width: 500px;
         font-size: 34px;
 letter-spacing: 5px;
@@ -73,8 +73,8 @@ font-family: "Lato";
 text-align: center;
 background-color:#FFFFFF;
     }
-    .container--text {
-        margin-top: 50px;
+    .about__container--text {
+        margin-top: 40px;
         width: 540px;
         height: 210px;
         font-size: 16px;
@@ -84,7 +84,54 @@ font-weight: 300;
 font-family: "Lato";
 text-align: center;
     }
-    .container--text p {
+    .about__container--text p {
         padding-top: 20px;
         text-align: center;
-     }
+    }
+    .lab__services {
+        margin: auto;
+        width: 1920px;
+        height: 488px;
+        background-image: url(Foto/services.jpg.png);
+        display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items:center;
+    
+    }
+    .services__container {
+        margin-top: 128px;
+        width: 900px;
+        height: 252px;
+        color: #ffffff;
+        display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items:center;
+    border:2px solid #ffffff;
+        }
+   
+    .services__container--head {
+        /* transform: translate(0,-50%); */
+        /* border: 2px solid white; */
+        width: 500px;
+        font-size: 34px;
+        letter-spacing: 5px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Lato";
+        text-align: center;
+        
+        }
+        .services__container--text {
+        margin-top: 30px;
+        width: 550px;
+        height: 210px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Lato";
+        text-align: center;
+          }
+    
