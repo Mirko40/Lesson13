@@ -51,9 +51,10 @@ text-align: center;
     flex-direction: column;
     align-self: center;
     align-items:center;
+    justify-content: center;
     }
     .about__container {
-        margin-top: 160px;
+        /* margin-top: 160px; */
         width: 900px;
         height: 330px;
         border: 2px solid black;
@@ -97,10 +98,10 @@ text-align: center;
     flex-direction: column;
     align-self: center;
     align-items:center;
-    
+    justify-content: center;
     }
     .services__container {
-        margin-top: 128px;
+        /* margin-top: 128px; */
         width: 900px;
         height: 252px;
         color: #ffffff;
@@ -112,8 +113,7 @@ text-align: center;
         }
    
     .services__container--head {
-        /* transform: translate(0,-50%); */
-        /* border: 2px solid white; */
+     
         width: 500px;
         font-size: 34px;
         letter-spacing: 5px;
@@ -121,7 +121,6 @@ text-align: center;
         font-weight: 700;
         font-family: "Lato";
         text-align: center;
-        
         }
         .services__container--text {
         margin-top: 30px;
@@ -134,4 +133,75 @@ text-align: center;
         font-family: "Lato";
         text-align: center;
           }
-    
+
+.lab__what {
+            margin: auto;
+            width: 1920px;
+            height: 1415px;
+            background-color: #FFFFFF;
+            display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items:center;
+        justify-content:space-around;
+        }
+.what__container {
+          
+            width: 900px;
+            height: 1185px;
+            font-size: 14px;
+            line-height: 26px;
+            color: #3c3c3c;
+            font-weight: 300;
+            font-family: "Lato";
+            text-align: center;
+            display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items:center;
+       
+      
+            }
+            .what__container--head {
+                width: 500px;
+                font-size: 34px;
+                letter-spacing: 5px;
+                color: #3c3c3c;
+                font-weight: 700;
+                font-family: "Lato";
+                text-align: center;
+                
+                }
+
+                .what__container--text {
+                    margin-top: 30px;
+                    width: 610px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #3c3c3c;
+                    font-weight: 300;
+                    font-family: "Lato";
+                    text-align: center;
+                    
+                    display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items:center;
+        justify-content:space-around;
+        
+                     }
+                     .what__text--head {
+                        font-size: 20px;
+                        letter-spacing: 3px;
+                        color: #3c3c3c;
+                        font-weight: 700;
+                        font-family: "Lato";
+                        text-align: center;
+                        
+                                        }
+    .what__container--text div {
+        padding-top: 44px;
+        padding-bottom: 35px;
+    }
+   
+                           
