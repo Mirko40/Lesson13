@@ -182,7 +182,6 @@ text-align: center;
                     font-weight: 300;
                     font-family: "Lato";
                     text-align: center;
-                    
                     display: flex;
         flex-direction: column;
         align-self: center;
@@ -203,5 +202,53 @@ text-align: center;
         padding-top: 44px;
         padding-bottom: 35px;
     }
-   
-                           
+    .lab__works {
+        margin: auto;
+        width: 1920px;
+        height: 485px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+        align-items:center;
+        align-content:space-between;
+        justify-content:space-between;
+           }
+.works--img1, .works--img3, .works--img4, .works--img6 {
+    width: 550px;
+    height: 236px;
+
+
+   }   
+.works--img2, .works--img5 {
+    width: 800px;
+    height: 236px;
+   }
+   .works__img--text {
+    margin-top: 170px;
+    margin-left: 50px;
+    font-size: 34px;
+letter-spacing: 5px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+
+   }
+.works--img1 {
+    background-image: url(Foto/Layer1.png);
+}
+.works--img2 {
+    background-image: url(Foto/Layer2.png);
+}
+.works--img3 {
+    background-image: url(Foto/Layer3.png);
+}
+.works--img4 {
+    background-image: url(Foto/Layer4.png);
+}
+.works--img5 {
+    background-image: url(Foto/Layer5.png);
+}
+.works--img6 {
+    background-image: url(Foto/Layer6.png);
+}
