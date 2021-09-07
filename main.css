@@ -217,8 +217,6 @@ text-align: center;
 .works--img1, .works--img3, .works--img4, .works--img6 {
     width: 550px;
     height: 236px;
-
-
    }   
 .works--img2, .works--img5 {
     width: 800px;
@@ -232,7 +230,6 @@ letter-spacing: 5px;
 color: #ffffff;
 font-weight: 700;
 font-family: "Lato";
-
    }
 .works--img1 {
     background-image: url(Foto/Layer1.png);
@@ -252,3 +249,55 @@ font-family: "Lato";
 .works--img6 {
     background-image: url(Foto/Layer6.png);
 }
+.lab__contact {
+    margin: auto;
+    width: 1920px;
+    height: 600px;
+    background-color:#ffffff ;
+    display: flex;
+flex-direction: column;
+align-self: center;
+align-items:center;
+justify-content: center;
+}
+.contact__container {
+          
+    width: 900px;
+    height: 290px;
+   display: flex;
+flex-direction: column;
+align-self: center;
+align-items:center;
+}
+.contact__container--head {
+    width: 500px;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    }
+    .contact__container--text {
+        margin-top: 60px;
+        width: 540px;
+        font-size: 16px;
+line-height: 26px;
+color: #3c3c3c;
+font-weight: 300;
+font-family: "Lato";
+text-align: center;
+    }
+    .contact--button {
+        margin-top: 40px;
+        width: 400px;
+        height: 60px;
+        background-color: #3C3C3C;
+        font-size: 16px;
+letter-spacing: 3px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+    }  
+    
